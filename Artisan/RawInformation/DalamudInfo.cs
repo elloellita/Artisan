@@ -37,8 +37,8 @@ namespace Artisan.RawInformation
                         else
                         {
                             StagingChecked = true;
-                            IsStaging = false;
-                            return false;
+                            IsStaging = true;
+                            return true;
                         }
                     }
                     catch (Exception ex)
